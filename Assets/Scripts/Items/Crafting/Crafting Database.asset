@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92c71ccbb58c9bb4c9454a3cfd2a3b7f, type: 3}
+  m_Name: Crafting Database
+  m_EditorClassIdentifier: 
+  recipes:
+  - requiredToolType: 0
+    item1: {fileID: 11400000, guid: 291af6cebdc82984bb8e7e968878f725, type: 2}
+    useItem1: 1
+    item2: {fileID: 11400000, guid: 291af6cebdc82984bb8e7e968878f725, type: 2}
+    useItem2: 1
+    endProduct: {fileID: 11400000, guid: f2fa5da6dd7d3574ba1e1de283aa6689, type: 2}
+    crafTime: 5
+    requiredTier: 0
+  - requiredToolType: 0
+    item1: {fileID: 11400000, guid: 7a4ee154ef3e1c946b9a74a7c59acbd0, type: 2}
+    useItem1: 1
+    item2: {fileID: 11400000, guid: 7a4ee154ef3e1c946b9a74a7c59acbd0, type: 2}
+    useItem2: 1
+    endProduct: {fileID: 11400000, guid: e08b4ace384719b4ea8a59e8bb95d545, type: 2}
+    crafTime: 2
+    requiredTier: 0
+  - requiredToolType: 1
+    item1: {fileID: 11400000, guid: 291af6cebdc82984bb8e7e968878f725, type: 2}
+    useItem1: 1
+    item2: {fileID: 0}
+    useItem2: 0
+    endProduct: {fileID: 11400000, guid: ff90cf2a2c3844a4b9f8ae3631d97a73, type: 2}
+    crafTime: 5
+    requiredTier: 0
+  - requiredToolType: 0
+    item1: {fileID: 11400000, guid: ff90cf2a2c3844a4b9f8ae3631d97a73, type: 2}
+    useItem1: 1
+    item2: {fileID: 11400000, guid: 7a4ee154ef3e1c946b9a74a7c59acbd0, type: 2}
+    useItem2: 4
+    endProduct: {fileID: 11400000, guid: 3ece8638da4397242af0bde3fa0c7626, type: 2}
+    crafTime: 10
+    requiredTier: 0
+  - requiredToolType: 0
+    item1: {fileID: 11400000, guid: ff90cf2a2c3844a4b9f8ae3631d97a73, type: 2}
+    useItem1: 0.1
+    item2: {fileID: 11400000, guid: d7fe587f56abda44f82b534b614a37e6, type: 2}
+    useItem2: 0.9
+    endProduct: {fileID: 11400000, guid: bc94e1aa180f6c649bf6b8e6a2030f49, type: 2}
+    crafTime: 5
+    requiredTier: 0
+  - requiredToolType: 1
+    item1: {fileID: 11400000, guid: 7a4ee154ef3e1c946b9a74a7c59acbd0, type: 2}
+    useItem1: 1
+    item2: {fileID: 0}
+    useItem2: 0.9
+    endProduct: {fileID: 11400000, guid: d7fe587f56abda44f82b534b614a37e6, type: 2}
+    crafTime: 7
+    requiredTier: 1
+  - requiredToolType: 1
+    item1: {fileID: 11400000, guid: 291af6cebdc82984bb8e7e968878f725, type: 2}
+    useItem1: 1
+    item2: {fileID: 0}
+    useItem2: 0.9
+    endProduct: {fileID: 11400000, guid: cc9c3277b015f9b4291766deeccc7aea, type: 2}
+    crafTime: 2
+    requiredTier: 1
+  - requiredToolType: 1
+    item1: {fileID: 11400000, guid: 7a4ee154ef3e1c946b9a74a7c59acbd0, type: 2}
+    useItem1: 5
+    item2: {fileID: 0}
+    useItem2: 0
+    endProduct: {fileID: 11400000, guid: a0f9382d13e14264d9b1106d2e2d2e62, type: 2}
+    crafTime: 8
+    requiredTier: 2
+  - requiredToolType: 1
+    item1: {fileID: 11400000, guid: 7a4ee154ef3e1c946b9a74a7c59acbd0, type: 2}
+    useItem1: 5
+    item2: {fileID: 0}
+    useItem2: 0
+    endProduct: {fileID: 11400000, guid: ebac233f94fb1254c95ab0df4aaf396a, type: 2}
+    crafTime: 8
+    requiredTier: 2
+  - requiredToolType: 0
+    item1: {fileID: 11400000, guid: a0f9382d13e14264d9b1106d2e2d2e62, type: 2}
+    useItem1: 4
+    item2: {fileID: 11400000, guid: ff90cf2a2c3844a4b9f8ae3631d97a73, type: 2}
+    useItem2: 1
+    endProduct: {fileID: 11400000, guid: df95e6ad268d9f0419c6a2827e76eb24, type: 2}
+    crafTime: 8
+    requiredTier: 0
+  - requiredToolType: 0
+    item1: {fileID: 11400000, guid: ebac233f94fb1254c95ab0df4aaf396a, type: 2}
+    useItem1: 4
+    item2: {fileID: 11400000, guid: ff90cf2a2c3844a4b9f8ae3631d97a73, type: 2}
+    useItem2: 1
+    endProduct: {fileID: 11400000, guid: 9991f02e5424d054fba57e3bc66d4370, type: 2}
+    crafTime: 8
+    requiredTier: 0

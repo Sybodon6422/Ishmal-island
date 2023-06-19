@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e2c871d6be11564fa105d395e98e23f, type: 3}
+  m_Name: Stone Axe
+  m_EditorClassIdentifier: 
+  specialProperties: 02000000
+  itemName: Stone Axe
+  itemWeight: 5
+  worldBody: {fileID: 3348274800240434939, guid: 87cf1115585f3b8429b4d03bf6c02e37,
+    type: 3}
+  damage: 9
+  toolTier: 2
+  toolReach: 5

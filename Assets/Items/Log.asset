@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e2c871d6be11564fa105d395e98e23f, type: 3}
+  m_Name: Log
+  m_EditorClassIdentifier: 
+  itemName: Log
+  itemWeight: 10
+  worldBody: {fileID: 482101124674458590, guid: 39376486a48168f46a647e4e47c1c394,
+    type: 3}
+  cRecipes: []
+  damage: 4
+  toolType: 0
+  toolTier: 0
+  toolReach: 6

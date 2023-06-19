@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e2c871d6be11564fa105d395e98e23f, type: 3}
+  m_Name: Sharpened Rock
+  m_EditorClassIdentifier: 
+  specialProperties: 0100000002000000
+  itemName: Sharpened Rock
+  itemWeight: 1
+  worldBody: {fileID: 1022209437401047437, guid: f9fb8636dff3a8044bb5a976454a7479,
+    type: 3}
+  damage: 5
+  toolTier: 1
+  toolReach: 4
